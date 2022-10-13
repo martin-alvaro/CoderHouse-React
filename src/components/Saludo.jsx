@@ -1,8 +1,8 @@
-function ItemListContainer({greeting}){
+function Saludo({greeting}){
     return(
         <h2 className="bienvenido" style={{"color": "green"}}>{greeting}</h2>
     ) 
     
 }
 
-export default ItemListContainer
+export default Saludo;
