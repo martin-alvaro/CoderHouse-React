@@ -16,7 +16,6 @@ const ItemDetailContainer =()=>{
                 const producto = products.find(
                     (prod) => prod.id === Number(id)
                 );
-                console.log(id)
 
                 setTimeout(() => {
                     res(producto);
