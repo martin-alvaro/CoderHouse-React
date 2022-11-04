@@ -15,10 +15,7 @@ function NavBar(){
                         <NavLink to="/category/shorts">Shorts</NavLink>
                         <NavLink to="/category/botines">Botines</NavLink>
                     </ul>
-                </li>
-                <Link className='link' to={''}>Contactos</Link>
-                
-                
+                </li>            
             </ul>  
             <Link to={"/cart"}>
                 <CartWidget/>

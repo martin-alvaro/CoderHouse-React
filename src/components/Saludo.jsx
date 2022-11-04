@@ -1,6 +1,6 @@
 function Saludo({greeting}){
     return(
-        <h2 className="bienvenido" style={{"color": "green"}}>{greeting}</h2>
+        <h2 className="bienvenido" style={{"color": "#2F89FC"}}>{greeting}</h2>
     ) 
     
 }

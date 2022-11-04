@@ -3,6 +3,7 @@ import { useState } from "react"
 
 const ItemCount = (prop) =>{
    
+    
     const [count , setCount] = useState(prop.initial)
 
     const sumar =()=>{
@@ -20,7 +21,7 @@ const ItemCount = (prop) =>{
                 <p className="contador">{count}</p>
                 <button className="menos" disabled={count === prop.initial} onClick={restar}>-</button>
             </div>
-            <button className="add">Agregar al carrito</button>
+            <button onClick={ ()=>prop.onAdd(count)} className="add">Agregar al carrito</button>
         </div>
     )
 
